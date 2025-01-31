@@ -55,25 +55,26 @@ table {
 
 
 
-body{
+body{/*boddy e uma tag que represnta o fundo */
     background-color: #ffc107;/* muda cor */
     font-family: Arial;/*muda a fonte*/
 }
 
-#col1{
+#col1{/*tag que seleciona a coluna 1*/
     background-color: white;
-    width: 436px;
-    text-align: center; /*centraliza o texto */
-    padding-top: 10px;
+    width: 436px; /*largura*/
+    text-align: center; /*centraliza o texto não funciona para tudo */
+    padding-top: 10px; /*pode juntar todos os padding (espaço de dentro) no sentido horario*/
     padding-bottom: 38px;
     padding-left: 38px;
     padding-right: 38px;
+    box-shadow: 0px 4px 4px 0px rgba(8,0,0,0.9) ;
 }
 .titulo{/* seletor de classe */
     font-size: 32px; /*espessura da fonte */
-    margin-top: 14px ;
+    margin-top: 14px ;/**/
     margin-bottom: 12px ;/*espessura de margem */
-    font-weight: bold;
+    font-weight: bold;/*peso da fonte*/
 }
 .text{
     font-size: 18px;
@@ -84,3 +85,60 @@ body{
     margin-top: 32px;
     text-align: left;
 }
+.rotulo{
+    font:16px;;
+    font-weight: bold;
+    display: block;/**/
+    margin-bottom: 8px;
+
+}
+.compo-texto{
+    width: 100%;
+    font-size: 16px;
+    color:#434343;
+    padding: 7px 13px;/*agrupa os valores baixo/cima*/
+    margin-bottom: 16px;
+    border: 45px  #ced4da;/*bexpessura da borda*/ /*dotted linha pontilhada*/
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.botao-reservar{
+    width: 100%;
+    background-color: #ffc107;
+    color: white;
+    line-height: 150% ;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 16px;
+}
+#col2{
+    width: 436px;
+   margin-right: 39px;
+}
+.oferta{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.destaque{
+    color: #445ee5;
+}
+.texto-oferta{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.tudo{
+    display: flex;
+    align-items: center;/*alinhamento vertical*/
+    justify-content: center;/*alinhamento horizontal*/
+    height: 100vh;/*na autura da tela viu port tamanho da tela */
+}
+
+
+
+
+/*id só representa uma coisa class represnta um conjunto ex titulo virou uma classe */
