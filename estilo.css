@@ -92,13 +92,13 @@ body{/*boddy e uma tag que represnta o fundo */
     margin-bottom: 8px;
 
 }
-.compo-texto{
+.campo-texto{
     width: 100%;
     font-size: 16px;
     color:#434343;
     padding: 7px 13px;/*agrupa os valores baixo/cima*/
     margin-bottom: 16px;
-    border: 45px  #ced4da;/*bexpessura da borda*/ /*dotted linha pontilhada*/
+    border: 1px solid #ced4da;/*bexpessura da borda*/ /*dotted linha pontilhada*/
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -116,7 +116,7 @@ body{/*boddy e uma tag que represnta o fundo */
     margin-top: 16px;
 }
 #col2{
-    width: 436px;
+    width: 700px;
    margin-right: 39px;
 }
 .oferta{
