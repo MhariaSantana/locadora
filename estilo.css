@@ -56,34 +56,38 @@ table {
 
 
 body{/*boddy e uma tag que represnta o fundo */
-    background-color: #ffc107;/* muda cor */
+    background-color: #800000;/* muda cor */
     font-family: Arial;/*muda a fonte*/
 }
 
 #col1{/*tag que seleciona a coluna 1*/
-    background-color: white;
+    background-color: #800000;
     width: 436px; /*largura*/
     text-align: center; /*centraliza o texto não funciona para tudo */
     padding-top: 10px; /*pode juntar todos os padding (espaço de dentro) no sentido horario*/
     padding-bottom: 38px;
     padding-left: 38px;
     padding-right: 38px;
-    box-shadow: 0px 4px 4px 0px rgba(8,0,0,0.9) ;
+    box-shadow: 4px 8px 8px 4px rgba(8,0,0,0.9) ;
 }
 .titulo{/* seletor de classe */
     font-size: 32px; /*espessura da fonte */
     margin-top: 14px ;/**/
     margin-bottom: 12px ;/*espessura de margem */
-    font-weight: bold;/*peso da fonte*/
+    font-weight: bolder;/*peso da fonte*/
+    font-family: 'Trebuchet MS';
+    color: white;
 }
 .text{
     font-size: 18px;
-    font-weight: bold;
+    font-weight: lighter;
+    color: white;
 
 }
 .pedido{
     margin-top: 32px;
     text-align: left;
+    color: white;
 }
 .rotulo{
     font:16px;;
@@ -101,10 +105,11 @@ body{/*boddy e uma tag que represnta o fundo */
     border: 1px solid #ced4da;/*bexpessura da borda*/ /*dotted linha pontilhada*/
     border-radius: 4px;
     box-sizing: border-box;
+    box-shadow: 0px 4px 4px 0px rgba(8,0,0,0.9) ;
 }
 .botao-reservar{
     width: 100%;
-    background-color: #ffc107;
+    background-color: #800000;
     color: white;
     line-height: 150% ;
     padding-top: 6px;
@@ -114,22 +119,27 @@ body{/*boddy e uma tag que represnta o fundo */
     text-transform: uppercase;
     font-size: 16px;
     margin-top: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(8,0,0,0.9) ;
+
 }
 #col2{
     width: 700px;
    margin-right: 39px;
+   
 }
 .oferta{
     font-size: 36px;
     font-weight: bold;
     color: white;
+    font-family: 'Trebuchet MS';
 }
 .destaque{
-    color: #445ee5;
+    color:#FBA518 ;
 }
 .texto-oferta{
     font-size: 18px;
     margin-top: 10px;
+    color: #FBA518;
 }
 .tudo{
     display: flex;
