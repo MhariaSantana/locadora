@@ -62,17 +62,18 @@ body{/*boddy e uma tag que represnta o fundo */
 
 #col1{/*tag que seleciona a coluna 1*/
     background-color: #800000;
-    width: 436px; /*largura*/
+    width: 400px; /*largura*/
     text-align: center; /*centraliza o texto não funciona para tudo */
     padding-top: 10px; /*pode juntar todos os padding (espaço de dentro) no sentido horario*/
     padding-bottom: 38px;
     padding-left: 38px;
     padding-right: 38px;
     box-shadow: 4px 8px 8px 4px rgba(8,0,0,0.9) ;
+    
 }
 .titulo{/* seletor de classe */
     font-size: 32px; /*espessura da fonte */
-    margin-top: 14px ;/**/
+    margin-top: 30px ;/**/
     margin-bottom: 12px ;/*espessura de margem */
     font-weight: bolder;/*peso da fonte*/
     font-family: 'Trebuchet MS';
@@ -132,6 +133,8 @@ body{/*boddy e uma tag que represnta o fundo */
     font-weight: bold;
     color: white;
     font-family: 'Trebuchet MS';
+    
+
 }
 .destaque{
     color:#FBA518 ;
