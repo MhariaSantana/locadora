@@ -78,6 +78,7 @@ body{/*boddy e uma tag que represnta o fundo */
     font-weight: bolder;/*peso da fonte*/
     font-family: 'Trebuchet MS';
     color: white;
+
 }
 .text{
     font-size: 18px;
@@ -103,7 +104,7 @@ body{/*boddy e uma tag que represnta o fundo */
     color:#434343;
     padding: 7px 13px;/*agrupa os valores baixo/cima*/
     margin-bottom: 16px;
-    border: 1px solid #ced4da;/*bexpessura da borda*/ /*dotted linha pontilhada*/
+    border: 4px solid #FBA518;/*bexpessura da borda*/ /*dotted linha pontilhada*/
     border-radius: 4px;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px 0px rgba(8,0,0,0.9) ;
@@ -122,10 +123,11 @@ body{/*boddy e uma tag que represnta o fundo */
     margin-top: 16px;
     box-shadow: 0px 4px 4px 0px rgba(8,0,0,0.9) ;
 
+
 }
 #col2{
-    width: 700px;
-   margin-right: 39px;
+    
+   align-items: end;
    
 }
 .oferta{
@@ -138,19 +140,34 @@ body{/*boddy e uma tag que represnta o fundo */
 }
 .destaque{
     color:#FBA518 ;
+    text-shadow: 6px 6px 6px rgb(22, 21, 21);
+    
 }
 .texto-oferta{
-    font-size: 18px;
-    margin-top: 10px;
+    font-size: 25px;
     color: #FBA518;
+    margin-top: 15px;
+    margin-left: 200px;
+    font-family: 'Trebuchet MS';
+    text-shadow: 10px 10px 10px rgb(14, 13, 13);
+    
+
+
 }
 .tudo{
     display: flex;
     align-items: center;/*alinhamento vertical*/
-    justify-content: center;/*alinhamento horizontal*/
+    justify-content: space-around;/*alinhamento horizontal*/
     height: 100vh;/*na autura da tela viu port tamanho da tela */
 }
-
+.info{
+    color: #FBA518;
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+    margin-left: 300px;
+    text-shadow: 6px 6px 6px rgb(22, 21, 21);
+    
+}
 
 
 
